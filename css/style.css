@@ -1,0 +1,14 @@
+img {
+    width: 250px;
+    height: 250px;
+}
+
+
+/*hide image on small screen*/
+
+@media screen and (max-width: 705px) {
+    .card-img-top {
+        display: none;
+        ;
+    }
+}
